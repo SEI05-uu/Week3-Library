@@ -13,7 +13,7 @@ public class Book
         this.ISBN = bookISBN;
     }
  
-    void DisplayInfo()
+    public void DisplayInfo()
     {
         Console.WriteLine($"Book title: {Title}");
         Console.WriteLine($"Book Author: {Author}");
